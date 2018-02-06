@@ -3,23 +3,22 @@
 
 <head>
   <title>Rock, Paper, Scissors</title>
-  <link href=".styles/styles.css" rel=stylesheet>
+  <link href="./styles/styles.css" rel=stylesheet>
   <meta charset="utf-8">
 </head>
 
 <body>
-  <script src="./scripts/scripts.js"></script>
-  <div class="buttons">
-    <button id="rock" type="button">Rock</button>
-    <button id="paper" type="button">Paper</button>
-    <button id="scissors" type="button">Scissors</button>
+  <div class="header">
+    <h1 id="title"> Rock, Paper, Scissors!</h1>
+  </div>
+  <div>
+    <button id="rock" type="button" class="button">Rock</button>
+    <button id="paper" type="button" class="button">Paper</button>
+    <button id="scissors" type="button" class="button">Scissors</button>
   </div>
   <div class="outcome">
   </div>
-  <div class="scores">
-    <p>Your score is: <span id="playerScore">0</span></p>
-    <p>Computer score is: <span id="computerScore">0</span></p>
-  </div>
+  <script src="./scripts/scripts.js"></script>
 </body>
 
 </html>
