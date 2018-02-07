@@ -43,4 +43,19 @@ function round() {
   computerScore.textContent = +computerScore.textContent + 1;
   roundID.textContent = +roundID.textContent + 1;
 }
+if (playerScore.textContent == 5) {
+  result.textContent = "Player beat computer!";
+  computerScore.textContent = 0;
+  playerScore.textContent = 0;
+  roundID.textContent = 0;
+  alert("You Win!");
+} else if (
+   computerScore.textContent == 5
+) {
+  result.textContent = "Computer beat player!";
+  computerScore.textContent = 0;
+  playerScore.textContent = 0;
+  roundID.textContent = 0;
+  alert("You Lose!");
+}
 }
