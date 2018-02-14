@@ -19,9 +19,9 @@ function computerPlay() {
 }
 
 //outcome notifier
-let outcome = document.querySelector(".outcome");
+let outcomeWindow = document.querySelector(".outcomeWindow");
 let result = document.createElement("div");
-outcome.appendChild(result);
+outcomeWindow.append(result);
 
 //one round
 function round() {
