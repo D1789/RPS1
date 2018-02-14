@@ -21,7 +21,7 @@ function computerPlay() {
 //outcome notifier
 let outcome = document.querySelector(".outcome");
 let result = document.createElement("div");
-outcome.append(result);
+outcome.appendChild(result);
 
 //one round
 function round() {
